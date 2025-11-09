@@ -1,0 +1,8 @@
+<?xml version='1.0' ?>
+<launch>
+  <node pkg="vehicle_interface" exec="can_message_sender_node" name="can_message_sender">
+  </node>
+
+  <node pkg="vehicle_interface" exec="can_message_receiver_node" name="can_message_receiver">
+  </node>
+</launch>
